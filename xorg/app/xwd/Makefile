@@ -10,13 +10,13 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=xwd
 PKG_RELEASE:=1
-PKG_VERSION:=1.0.3
+PKG_VERSION:=1.0.9
 
-PKG_SOURCE_URL:=http://xorg.freedesktop.org/releases/X11R7.5/src/app
-PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
+PKG_SOURCE_URL:=https://xorg.freedesktop.org/releases/individual/app/
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
 PKG_BUILD_DIR:=$(BUILD_DIR)/Xorg/$(PKG_NAME)-$(PKG_VERSION)/
 
-PKG_MD5SUM:=007cea1f389abde5c93162dcd5541351
+PKG_HASH:=dc121b84947eb4a3d1131bff1e9844cfa2124d95b47b35f9932340fa931fbd3fl
 PKG_INSTALL:=1
 
 include $(INCLUDE_DIR)/package.mk
