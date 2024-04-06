@@ -10,12 +10,12 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=libXcursor
 PKG_RELEASE:=1
-PKG_VERSION:=1.1.10
+PKG_VERSION:=1.2.2
 
 PKG_SOURCE_URL:=http://xorg.freedesktop.org/releases/individual/lib/
-PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
 PKG_BUILD_DIR:=$(BUILD_DIR)/Xorg/$(PKG_NAME)-$(PKG_VERSION)/
-PKG_MD5SUM:=7dcdad1c10daea872cb3355af414b2ca
+PKG_HASH:=53d071bd2cc56e517a30998d5e685c8a74556ddada43c6985d14da9a023a88ee
 
 PKG_FIXUP:=libtool
 PKG_INSTALL:=1
