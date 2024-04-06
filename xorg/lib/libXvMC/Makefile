@@ -9,12 +9,12 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=libXvMC
 PKG_RELEASE:=1
-PKG_VERSION:=1.0.5
+PKG_VERSION:=1.0.14
 
 PKG_SOURCE_URL:=http://xorg.freedesktop.org/releases/individual/lib/
-PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
 PKG_BUILD_DIR:=$(BUILD_DIR)/Xorg/$(PKG_NAME)-$(PKG_VERSION)/
-PKG_MD5SUM:=16c3a11add14979beb7510e44623cac6
+PKG_HASH:=e4be9eb6b6bafdbbf81f47f7163047215376e45e2dc786d0ea6181c930725ed9
 
 PKG_FIXUP:=libtool
 PKG_INSTALL:=1
