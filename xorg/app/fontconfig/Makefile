@@ -8,12 +8,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=fontconfig
-PKG_VERSION:=2.6.0
-PKG_RELEASE:=2
+PKG_VERSION:=2.15.0
+PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=http://fontconfig.org/release/
-PKG_MD5SUM:=ab54ec1d4ddd836313fdbc0cd5299d6d
+PKG_HASH:=f5f359d6332861bd497570848fcb42520964a9e83d5e3abe397b6b6db9bcaaf4
 PKG_FIXUP:=libtool
 PKG_INSTALL:=1
 
