@@ -10,12 +10,12 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=libfontenc
 PKG_RELEASE:=1
-PKG_VERSION:=1.0.5
+PKG_VERSION:=1.1.8
 
 PKG_SOURCE_URL:=http://xorg.freedesktop.org/releases/individual/lib/
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
 PKG_BUILD_DIR:=$(BUILD_DIR)/Xorg/$(PKG_NAME)-$(PKG_VERSION)/
-PKG_MD5SUM:=4f0d8191819be9f2bdf9dad49a65e43b
+PKG_HASH:=7b02c3d405236e0d86806b1de9d6868fe60c313628b38350b032914aa4fd14c6
 
 PKG_FIXUP:=libtool
 PKG_INSTALL:=1
