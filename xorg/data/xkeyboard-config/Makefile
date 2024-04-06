@@ -8,12 +8,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=xkeyboard-config
-PKG_VERSION:=1.7
-PKG_RELEASE:=2
+PKG_VERSION:=2.41
+PKG_RELEASE:=1
 
-PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
-PKG_SOURCE_URL:=http://xlibs.freedesktop.org/xkbdesc/
-PKG_MD5SUM:=d351c0109fac166edcedad32d1b0e38e
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
+PKG_SOURCE_URL:=https://xorg.freedesktop.org/releases/individual/data/xkeyboard-config/
+PKG_HASH:=f02cd6b957295e0d50236a3db15825256c92f67ef1f73bf1c77a4b179edf728f
 
 PKG_INSTALL:=1
 
