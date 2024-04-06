@@ -10,13 +10,13 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=iceauth
 PKG_RELEASE:=1
-PKG_VERSION:=1.0.3
-PKG_SOURCE_URL:=http://xorg.freedesktop.org/releases/X11R7.5/src/app
+PKG_VERSION:=1.0.10
+PKG_SOURCE_URL:=https://xorg.freedesktop.org/releases/individual/app/
 
-PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
 PKG_BUILD_DIR:=$(BUILD_DIR)/Xorg/$(PKG_NAME)-$(PKG_VERSION)/
 
-PKG_MD5SUM:=975ade3f238c1eb10705da0a91e6e8e7
+PKG_HASH:=3deefb7da26af9dc799b5628d929d91c9af68c78575639944db3b955f29aa029
 PKG_BUILD_DEPENDS:=xproto
 
 include $(INCLUDE_DIR)/package.mk
