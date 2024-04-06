@@ -9,12 +9,12 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=smproxy
 PKG_RELEASE:=1
-PKG_VERSION:=1.0.3
-PKG_SOURCE_URL:=http://xorg.freedesktop.org/releases/X11R7.5/src/app
-PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
+PKG_VERSION:=1.0.7
+PKG_SOURCE_URL:=https://xorg.freedesktop.org/releases/individual/app/
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
 PKG_BUILD_DIR:=$(BUILD_DIR)/Xorg/$(PKG_NAME)-$(PKG_VERSION)/
 
-PKG_MD5SUM:=ba7dbde81be24fc1bd4156b360e5f8cf
+PKG_HASH:=4aa99237cc9dab7d87ce9bc7cca4116674a853b5f08dfe3f9db1bb2b2cf9f305
 PKG_INSTALL:=1
 
 include $(INCLUDE_DIR)/package.mk
