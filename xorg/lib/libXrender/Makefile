@@ -9,12 +9,12 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=libXrender
 PKG_RELEASE:=1
-PKG_VERSION:=0.9.5
+PKG_VERSION:=0.9.11
 
 PKG_SOURCE_URL:=http://xorg.freedesktop.org/releases/individual/lib/
-PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
 PKG_BUILD_DIR:=$(BUILD_DIR)/Xorg/$(PKG_NAME)-$(PKG_VERSION)/
-PKG_MD5SUM:=276dd9e85daf0680616cd9f132b354c9
+PKG_HASH:=bc53759a3a83d1ff702fb59641b3d2f7c56e05051fa0cfa93501166fa782dc24
 
 PKG_FIXUP:=libtool
 PKG_INSTALL:=1
