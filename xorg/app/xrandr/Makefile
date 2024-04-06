@@ -9,13 +9,13 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=xrandr
 PKG_RELEASE:=1
-PKG_VERSION:=1.3.2
+PKG_VERSION:=1.5.2
 
 PKG_SOURCE_URL:=http://xorg.freedesktop.org/releases/individual/app/
-PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
 PKG_BUILD_DIR:=$(BUILD_DIR)/Xorg/$(PKG_NAME)-$(PKG_VERSION)/
 
-PKG_MD5SUM:=2cb19bb1c19ccf77c40032b03dbe06f0
+PKG_HASH:=c8bee4790d9058bacc4b6246456c58021db58a87ddda1a9d0139bf5f18f1f240
 PKG_INSTALL:=1
 
 include $(INCLUDE_DIR)/package.mk
