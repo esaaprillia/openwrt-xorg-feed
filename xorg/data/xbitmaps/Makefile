@@ -9,13 +9,13 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=xbitmaps
 PKG_RELEASE:=1
-PKG_VERSION:=1.1.0
+PKG_VERSION:=1.1.3
 
-PKG_SOURCE_URL:=http://xorg.freedesktop.org/releases/X11R7.5/src/data/
-PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
+PKG_SOURCE_URL:=https://xorg.freedesktop.org/releases/individual/data/
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
 PKG_BUILD_DIR:=$(BUILD_DIR)/Xorg/$(PKG_NAME)-$(PKG_VERSION)/
 
-PKG_MD5SUM:=f9ddd4e70a5375508b3acaf17be0d0ab
+PKG_HASH:=ad6cad54887832a17d86c2ccfc5e52a1dfab090f8307b152c78b0e1529cd0f7a
 PKG_INSTALL:=1
 
 include $(INCLUDE_DIR)/package.mk
