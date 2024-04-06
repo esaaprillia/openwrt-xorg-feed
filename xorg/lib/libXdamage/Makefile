@@ -9,12 +9,12 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=libXdamage
 PKG_RELEASE:=1
-PKG_VERSION:=1.1.2
+PKG_VERSION:=1.1.6
 
 PKG_SOURCE_URL:=http://xorg.freedesktop.org/releases/individual/lib/
-PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
 PKG_BUILD_DIR:=$(BUILD_DIR)/Xorg/$(PKG_NAME)-$(PKG_VERSION)/
-PKG_MD5SUM:=b42780bce703ec202a33e5693991c09d
+PKG_HASH:=52733c1f5262fca35f64e7d5060c6fcd81a880ba8e1e65c9621cf0727afb5d11
 
 PKG_FIXUP:=libtool
 PKG_INSTALL:=1
