@@ -9,13 +9,13 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=xsetroot
 PKG_RELEASE:=1
-PKG_VERSION:=1.0.3
+PKG_VERSION:=1.1.3
 
-PKG_SOURCE_URL:=http://xorg.freedesktop.org/releases/X11R7.5/src/app
-PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
+PKG_SOURCE_URL:=https://xorg.freedesktop.org/releases/individual/app/
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
 PKG_BUILD_DIR:=$(BUILD_DIR)/Xorg/$(PKG_NAME)-$(PKG_VERSION)/
 
-PKG_MD5SUM:=cbda9b9b8da5af4614110883d5a276b8
+PKG_HASH:=6081b45a9eb4426e045d259d1e144b32417fb635e5b96aa90647365ac96638d1
 PKG_INSTALL:=1
 
 include $(INCLUDE_DIR)/package.mk
