@@ -9,12 +9,12 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=libXcomposite
 PKG_RELEASE:=1
-PKG_VERSION:=0.4.1
+PKG_VERSION:=0.4.6
 
 PKG_SOURCE_URL:=http://xorg.freedesktop.org/releases/individual/lib/
-PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
 PKG_BUILD_DIR:=$(BUILD_DIR)/Xorg/$(PKG_NAME)-$(PKG_VERSION)/
-PKG_MD5SUM:=0f1367f57fdf5df17a8dd71d0fa68248
+PKG_HASH:=fe40bcf0ae1a09070eba24088a5eb9810efe57453779ec1e20a55080c6dc2c87
 
 PKG_FIXUP:=libtool
 PKG_INSTALL:=1
