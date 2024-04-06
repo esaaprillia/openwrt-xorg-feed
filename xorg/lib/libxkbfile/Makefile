@@ -9,12 +9,12 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=libxkbfile
 PKG_RELEASE:=1
-PKG_VERSION:=1.0.6
+PKG_VERSION:=1.1.3
 
 PKG_SOURCE_URL:=http://xorg.freedesktop.org/releases/individual/lib/
-PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
 PKG_BUILD_DIR:=$(BUILD_DIR)/Xorg/$(PKG_NAME)-$(PKG_VERSION)/
-PKG_MD5SUM:=b01156e263eca8177e6b7f10441951c4
+PKG_HASH:=a9b63eea997abb9ee6a8b4fbb515831c841f471af845a09de443b28003874bec
 
 PKG_FIXUP:=libtool
 
