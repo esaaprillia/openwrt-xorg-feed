@@ -9,12 +9,12 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=xauth
 PKG_RELEASE:=1
-PKG_VERSION:=1.0.4
-PKG_SOURCE_URL:=http://xorg.freedesktop.org/releases/X11R7.5/src/app
-PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
+PKG_VERSION:=1.1.3
+PKG_SOURCE_URL:=https://xorg.freedesktop.org/releases/individual/app/
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
 PKG_BUILD_DIR:=$(BUILD_DIR)/Xorg/$(PKG_NAME)-$(PKG_VERSION)/
 
-PKG_MD5SUM:=fa00078c414c4a57cab7a6d89a0c8734
+PKG_HASH:=e7075498bae332f917f01d660f9b940c0752b2556a8da61ccb62a44d0ffe9d33
 PKG_INSTALL:=1
 
 include $(INCLUDE_DIR)/package.mk
