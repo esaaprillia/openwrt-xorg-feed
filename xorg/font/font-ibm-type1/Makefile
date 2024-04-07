@@ -9,12 +9,12 @@ include $(TOPDIR)/rules.mk
 
 PKG_BASE_NAME:=font
 PKG_NAME:=font-ibm-type1
-PKG_RELEASE:=2
-PKG_VERSION:=1.0.0
-PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
+PKG_RELEASE:=1
+PKG_VERSION:=1.0.4
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
 PKG_BUILD_DIR=$(BUILD_DIR)/Xorg/$(_CATEGORY)/${PKG_NAME}-$(PKG_VERSION)/
-PKG_SOURCE_URL:=http://xorg.freedesktop.org/releases/X11R7.3/src/font
-PKG_MD5SUM:=8e8733051371e2b51123376b49f5d3ea
+PKG_SOURCE_URL:=https://xorg.freedesktop.org/releases/individual/font/
+PKG_HASH:=c4395e95ba46d40c4ad1737e91cac20c0ab75411329b60db5d99fed92b60ce7f
 
 include $(INCLUDE_DIR)/package.mk
 
