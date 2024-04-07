@@ -9,13 +9,13 @@ include $(TOPDIR)/rules.mk
 
 PKG_BASE_NAME:=xf86
 PKG_NAME:=xf86-video-nv
-PKG_RELEASE:=3
-PKG_VERSION:=2.1.15
+PKG_RELEASE:=1
+PKG_VERSION:=2.1.23
 
 PKG_SOURCE_URL:=http://xorg.freedesktop.org/releases/individual/driver
-PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
 PKG_BUILD_DIR:=$(BUILD_DIR)/Xorg/${PKG_NAME}-$(PKG_VERSION)/
-PKG_MD5SUM:=1b22188bd9012a148206940708b52ea6
+PKG_HASH:=c68dbda431f3d47000606f8173b977b811c76ba9dda1a5d2e3ee122bbbb98aca
 
 include $(INCLUDE_DIR)/package.mk
 $(call include_mk, xorg-driver.mk)
