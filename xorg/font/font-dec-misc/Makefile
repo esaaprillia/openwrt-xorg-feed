@@ -9,12 +9,12 @@ include $(TOPDIR)/rules.mk
 
 PKG_BASE_NAME:=font
 PKG_NAME:=font-dec-misc
-PKG_RELEASE:=2
-PKG_VERSION:=1.0.0
-PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
+PKG_RELEASE:=1
+PKG_VERSION:=1.0.4
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
 PKG_BUILD_DIR=$(BUILD_DIR)/Xorg/$(_CATEGORY)/${PKG_NAME}-$(PKG_VERSION)/
-PKG_SOURCE_URL:=http://xorg.freedesktop.org/releases/X11R7.3/src/font
-PKG_MD5SUM:=284e554db1c64fb7580a06df01444a2b
+PKG_SOURCE_URL:=https://xorg.freedesktop.org/releases/individual/font/
+PKG_HASH:=82d968201d8ff8bec0e51dccd781bb4d4ebf17e11004944279bdc0201e161af7
 
 include $(INCLUDE_DIR)/package.mk
 
