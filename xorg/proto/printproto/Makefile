@@ -9,13 +9,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=printproto
-PKG_VERSION:=1.0.4
+PKG_VERSION:=1.0.5
 PKG_RELEASE:=1
 
 PKG_SOURCE_URL:=http://xorg.freedesktop.org/releases/individual/proto/
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
 PKG_BUILD_DIR:=$(BUILD_DIR)/Xorg/$(PKG_NAME)-$(PKG_VERSION)/
-PKG_MD5SUM:=7321847a60748b4d2f1fa16db4b6ede8
+PKG_HASH:=1298316cf43b987365ab7764d61b022a3d7f180b67b423eed3456862d155911a
 
 include $(INCLUDE_DIR)/package.mk
 
