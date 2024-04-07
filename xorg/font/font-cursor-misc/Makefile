@@ -9,12 +9,12 @@ include $(TOPDIR)/rules.mk
 
 PKG_BASE_NAME:=font
 PKG_NAME:=font-cursor-misc
-PKG_RELEASE:=2
-PKG_VERSION:=1.0.0
-PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
+PKG_RELEASE:=1
+PKG_VERSION:=1.0.4
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
 PKG_BUILD_DIR=$(BUILD_DIR)/Xorg/$(_CATEGORY)/${PKG_NAME}-$(PKG_VERSION)/
-PKG_SOURCE_URL:=http://xorg.freedesktop.org/releases/X11R7.3/src/font
-PKG_MD5SUM:=305fa22cdfefb8f80babd711051a534b
+PKG_SOURCE_URL:=https://xorg.freedesktop.org/releases/individual/font/
+PKG_HASH:=25d9c9595013cb8ca08420509993a6434c917e53ca1fec3f63acd45a19d4f982
 
 include $(INCLUDE_DIR)/package.mk
 
