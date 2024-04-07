@@ -9,12 +9,12 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=dmxproto
 PKG_RELEASE:=1
-PKG_VERSION:=2.3
+PKG_VERSION:=2.3.1
 
 PKG_SOURCE_URL:=http://xorg.freedesktop.org/releases/individual/proto/
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
 PKG_BUILD_DIR:=$(BUILD_DIR)/Xorg/$(PKG_NAME)-$(PKG_VERSION)/
-PKG_MD5SUM:=880a41720b2937e2660dcdc0d34a8791
+PKG_HASH:=e72051e6a3e06b236d19eed56368117b745ca1e1a27bdc50fd51aa375bea6509
 
 include $(INCLUDE_DIR)/package.mk
 
