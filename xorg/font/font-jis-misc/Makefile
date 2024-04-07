@@ -9,12 +9,12 @@ include $(TOPDIR)/rules.mk
 
 PKG_BASE_NAME:=font
 PKG_NAME:=font-jis-misc
-PKG_RELEASE:=2
-PKG_VERSION:=1.0.0
-PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
+PKG_RELEASE:=1
+PKG_VERSION:=1.0.4
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
 PKG_BUILD_DIR=$(BUILD_DIR)/Xorg/$(_CATEGORY)/${PKG_NAME}-$(PKG_VERSION)/
-PKG_SOURCE_URL:=http://xorg.freedesktop.org/releases/X11R7.3/src/font
-PKG_MD5SUM:=61febb49a71065723a1fba17cbf23c67
+PKG_SOURCE_URL:=https://xorg.freedesktop.org/releases/individual/font/
+PKG_HASH:=78d1eff6c471f7aa6802a26d62cccf51d8e5185586406d9b6e1ee691b0bffad0
 
 include $(INCLUDE_DIR)/package.mk
 
