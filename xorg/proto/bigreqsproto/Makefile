@@ -9,13 +9,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=bigreqsproto
-PKG_VERSION:=1.1.0
+PKG_VERSION:=1.1.2
 PKG_RELEASE:=1
 
 PKG_SOURCE_URL:=http://xorg.freedesktop.org/releases/individual/proto/
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
 PKG_BUILD_DIR:=$(BUILD_DIR)/Xorg/$(PKG_NAME)-$(PKG_VERSION)/
-PKG_MD5SUM:=d30c5dbf19ca6dffcd9788227ecff8c5
+PKG_HASH:=462116ab44e41d8121bfde947321950370b285a5316612b8fce8334d50751b1e
 
 include $(INCLUDE_DIR)/package.mk
 
