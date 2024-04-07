@@ -9,13 +9,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=inputproto
-PKG_VERSION:=2.0
+PKG_VERSION:=2.3.2
 PKG_RELEASE:=1
 
 PKG_SOURCE_URL:=http://xorg.freedesktop.org/releases/individual/proto/
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
 PKG_BUILD_DIR:=$(BUILD_DIR)/Xorg/$(PKG_NAME)-$(PKG_VERSION)/
-PKG_MD5SUM:=0f7acbc14a082f9ae03744396527d23d
+PKG_HASH:=893a6af55733262058a27b38eeb1edc733669f01d404e8581b167f03c03ef31d
 
 include $(INCLUDE_DIR)/package.mk
 
