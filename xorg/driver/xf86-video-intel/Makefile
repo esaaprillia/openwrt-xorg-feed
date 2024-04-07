@@ -10,14 +10,14 @@ include $(TOPDIR)/rules.mk
 PKG_BASE_NAME:=xf86
 PKG_NAME:=xf86-video-intel
 PKG_RELEASE:=1
-PKG_VERSION:=2.9.1
+PKG_VERSION:=2.99.917
 
 PKG_SOURCE_URL:=http://xorg.freedesktop.org/releases/individual/driver
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
 PKG_BUILD_DIR:=$(BUILD_DIR)/Xorg/${PKG_NAME}-$(PKG_VERSION)/
 PKG_BUILD_DEPENDS:=xf86driproto glproto
 
-PKG_MD5SUM:=8951d0366c16991badb7f9050556f4f3
+PKG_HASH:=00b781eea055582820a123c47b62411bdf6aabf4f03dc0568faec55faf9667c9
 
 include $(INCLUDE_DIR)/package.mk
 $(call include_mk, xorg-driver.mk)
