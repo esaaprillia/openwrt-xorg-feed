@@ -9,11 +9,11 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=xf86-video-geode
 PKG_RELEASE:=1
-PKG_VERSION:=2.11.6
+PKG_VERSION:=2.11.21
 
 PKG_SOURCE_URL:=http://xorg.freedesktop.org/releases/individual/driver/
-PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
-PKG_MD5SUM:=3ff0dfb4b3bd8872c6efb70371cb6b98
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
+PKG_HASH:=8256ac3f14117324d00b7bfa8053645ca92562fe837c542489a502adbb5f9f1e
 
 PKG_BUILD_DIR:=$(BUILD_DIR)/Xorg/$(PKG_NAME)-$(PKG_VERSION)/
 
