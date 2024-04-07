@@ -8,12 +8,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=libxcb
-PKG_VERSION:=1.1
-PKG_RELEASE:=2
+PKG_VERSION:=1.16.1
+PKG_RELEASE:=1
 
-PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
-PKG_SOURCE_URL:=http://xcb.freedesktop.org/dist/
-PKG_MD5SUM:=9310b02433273d75d42f10da3c7455aa
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
+PKG_SOURCE_URL:=https://xorg.freedesktop.org/releases/individual/xcb/
+PKG_HASH:=f24d187154c8e027b358fc7cb6588e35e33e6a92f11c668fe77396a7ae66e311
 PKG_FIXUP:=libtool
 PKG_INSTALL:=1
 PKG_BUILD_DEPENDS:=xcbproto libpthread-stubs
