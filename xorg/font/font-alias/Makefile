@@ -9,12 +9,12 @@ include $(TOPDIR)/rules.mk
 
 PKG_BASE_NAME:=font
 PKG_NAME:=font-alias
-PKG_RELEASE:=2
-PKG_VERSION:=1.0.1
+PKG_RELEASE:=1
+PKG_VERSION:=1.0.5
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
 PKG_BUILD_DIR=$(BUILD_DIR)/Xorg/$(_CATEGORY)/${PKG_NAME}-$(PKG_VERSION)/
-PKG_SOURCE_URL:=http://xorg.freedesktop.org/releases/X11R7.3/src/font
-PKG_MD5SUM:=c4776b6f0f2ecdb7670b6fe64b5d2a2d
+PKG_SOURCE_URL:=https://xorg.freedesktop.org/releases/individual/font/
+PKG_HASH:=9f89e217bb73e0e3636a0a493fbf8b7c995156e0c53d9a0476d201b67c2d6b6e
 
 include $(INCLUDE_DIR)/package.mk
 
