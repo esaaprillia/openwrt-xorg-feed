@@ -8,13 +8,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=xf86-input-keyboard
-PKG_VERSION:=1.4.0
-PKG_RELEASE:=2
+PKG_VERSION:=2.0.0
+PKG_RELEASE:=1
 
 PKG_SOURCE_URL:=http://xorg.freedesktop.org/releases/individual/driver
-PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
 PKG_BUILD_DIR:=$(BUILD_DIR)/Xorg/$(PKG_NAME)-$(PKG_VERSION)/
-PKG_MD5SUM:=fd17158ffeacecc8cc670604460cb98b
+PKG_HASH:=3266fdf1a2175fd4fe999527ae8527cc59f3f01a1d6271ad474bff0b9451feb9
 
 PKG_BUILD_DEPENDS:=randrproto inputproto kbproto xproto
 PKG_FIXUP:=libtool
