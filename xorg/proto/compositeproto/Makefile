@@ -9,13 +9,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=compositeproto
-PKG_VERSION:=0.4.1
+PKG_VERSION:=0.4.2
 PKG_RELEASE:=1
 
 PKG_SOURCE_URL:=http://xorg.freedesktop.org/releases/individual/proto/
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
 PKG_BUILD_DIR:=$(BUILD_DIR)/Xorg/$(PKG_NAME)-$(PKG_VERSION)/
-PKG_MD5SUM:=3692f3f8b2ea10dff3d2cede8dc65e79
+PKG_HASH:=049359f0be0b2b984a8149c966dd04e8c58e6eade2a4a309cf1126635ccd0cfc
 
 include $(INCLUDE_DIR)/package.mk
 
