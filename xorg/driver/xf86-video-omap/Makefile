@@ -7,16 +7,14 @@
 
 include $(TOPDIR)/rules.mk
 
-PKG_NAME:=xf86-video-omapfb
-PKG_VERSION:=20100810
-PKG_REV:=db636c8436265c3d86c5b8e00785e45d55825c80
+PKG_NAME:=xf86-video-omap
 PKG_RELEASE:=1
+PKG_VERSION:=0.4.5
 
-PKG_SOURCE_URL:=http://git.pingu.fi/xf86-video-omapfb
-PKG_SOURCE_PROTO:=git
-PKG_SOURCE_VERSION:=$(PKG_REV)
-PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
+PKG_SOURCE_URL:=http://xorg.freedesktop.org/releases/individual/driver/
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
+PKG_HASH:=93e7d42107521e61f61980eaea64fb452e87b7b94272e48938ac8d904ccfab5a
+
 PKG_BUILD_DIR:=$(BUILD_DIR)/Xorg/$(PKG_NAME)-$(PKG_VERSION)/
 
 PKG_FIXUP:=libtool
