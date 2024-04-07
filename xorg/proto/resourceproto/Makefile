@@ -9,9 +9,10 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=resourceproto
 PKG_RELEASE:=1
-PKG_VERSION:=1.1.0
+PKG_VERSION:=1.2.0
 PKG_SOURCE_URL:=http://xorg.freedesktop.org/releases/individual/proto/
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
+PKG_HASH:=06735a5b92b20759204e4751ecd6064a2ad8a6246bb65b3078b862a00def2537
 PKG_BUILD_DIR:=$(BUILD_DIR)/Xorg/$(PKG_NAME)-$(PKG_VERSION)/
 
 include $(INCLUDE_DIR)/package.mk
