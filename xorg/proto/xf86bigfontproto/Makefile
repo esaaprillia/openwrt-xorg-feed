@@ -15,7 +15,7 @@ PKG_RELEASE:=3
 PKG_SOURCE_URL:=http://xorg.freedesktop.org/releases/individual/proto/
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
 PKG_BUILD_DIR:=$(BUILD_DIR)/Xorg/$(PKG_NAME)-$(PKG_VERSION)/
-PKG_MD5SUM:=120e226ede5a4687b25dd357cc9b8efe
+PKG_HASH:=ba9220e2c4475f5ed2ddaa7287426b30089e4d29bd58d35fad57ba5ea43e1648
 
 include $(INCLUDE_DIR)/package.mk
 
