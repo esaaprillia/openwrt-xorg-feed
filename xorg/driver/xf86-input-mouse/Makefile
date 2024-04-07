@@ -8,13 +8,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=xf86-input-mouse
-PKG_VERSION:=1.5.0
-PKG_RELEASE:=2
+PKG_VERSION:=1.9.5
+PKG_RELEASE:=1
 
 PKG_SOURCE_URL:=http://xorg.freedesktop.org/releases/individual/driver
-PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
 PKG_BUILD_DIR:=$(BUILD_DIR)/Xorg/$(PKG_NAME)-$(PKG_VERSION)/
-PKG_MD5SUM:=c58629fddf0782dad5c02da6aeb35521
+PKG_HASH:=4fde8ae9b44352e2a208584c36528ee3ed13cf5fe4417208a9785daccefd9968
 
 PKG_BUILD_DEPENDS:=randrproto inputproto xproto
 PKG_FIXUP:=libtool
