@@ -10,12 +10,12 @@ include $(TOPDIR)/rules.mk
 PKG_BASE_NAME:=xf86
 PKG_NAME:=xf86-video-ati
 PKG_RELEASE:=1
-PKG_VERSION:=6.12.4
+PKG_VERSION:=22.0.0
 
 PKG_SOURCE_URL:=http://xorg.freedesktop.org/releases/individual/driver
-PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
 PKG_BUILD_DIR:=$(BUILD_DIR)/Xorg/${PKG_NAME}-$(PKG_VERSION)/
-PKG_MD5SUM:=e662348f6f957fcedf52818d668ab9f5
+PKG_HASH:=c8c8bb56d3f6227c97e59c3a3c85a25133584ceb82ab5bc05a902a743ab7bf6d
 
 include $(INCLUDE_DIR)/package.mk
 $(call include_mk, xorg-driver.mk)
