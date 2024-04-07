@@ -9,13 +9,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=xineramaproto
-PKG_VERSION:=1.2
+PKG_VERSION:=1.2.1
 PKG_RELEASE:=1
 
 PKG_SOURCE_URL:=http://xorg.freedesktop.org/releases/individual/proto/
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
 PKG_BUILD_DIR:=$(BUILD_DIR)/Xorg/$(PKG_NAME)-$(PKG_VERSION)/
-PKG_MD5SUM:=a8aadcb281b9c11a91303e24cdea45f5
+PKG_HASH:=977574bb3dc192ecd9c55f59f991ec1dff340be3e31392c95deff423da52485b
 
 include $(INCLUDE_DIR)/package.mk
 
