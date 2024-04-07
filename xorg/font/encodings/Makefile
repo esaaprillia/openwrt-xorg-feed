@@ -9,12 +9,12 @@ include $(TOPDIR)/rules.mk
 
 PKG_BASE_NAME:=encodings
 PKG_NAME:=encodings
-PKG_RELEASE:=2
-PKG_VERSION:=1.0.2
-PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
+PKG_RELEASE:=1
+PKG_VERSION:=1.1.0
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
 PKG_BUILD_DIR=$(BUILD_DIR)/Xorg/$(_CATEGORY)/${PKG_NAME}-$(PKG_VERSION)/
-PKG_SOURCE_URL:=http://xorg.freedesktop.org/releases/X11R7.3/src/font
-PKG_MD5SUM:=11adda157b03d63fd61d95ad7ef00466
+PKG_SOURCE_URL:=https://xorg.freedesktop.org/releases/individual/font/
+PKG_HASH:=9ff13c621756cfa12e95f32ba48a5b23839e8f577d0048beda66c67dab4de975
 
 include $(INCLUDE_DIR)/package.mk
 
